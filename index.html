@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+   <link href="Assets/CSS/styles.css" rel = "stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+   <container id = "body">
+      <form id = "wholeForm">
+         <ul id = "topLevelList">
+            <ul id = "firstColumnList">
+               <li class = "nameInformation">
+                  <label for = "firstName">First Name</label><br>
+                  <input = "text" id = "firstName" placeholder = "First Name">
+               </li>
+               <li class = "nameInformation">
+                  <label for = "middleName">Middle Name</label><br>
+                  <input = "text" id = "middleName" placeholder="Middle Name">
+               </li>
+               <li class = "nameInformation">
+                  <label for = "lastName">Last Name</label><br>
+                  <input = "text" id = "lastName" placeholder="Last Name">
+               </li>
+               <li>
+                  <label for = "Region">Region</label><br>
+                  <select id = "Region" name = "Region">
+                     <option>Pandaria</option>
+                     <option>Winterfell</option>
+                     <option>Tatooine</option>
+                     <option>Stormwind</option>
+                     <option>Naxxramas</option>
+                  </select>
+               </li>
+            </ul>
+            <ul id = "secondColumnList">
+               <li>
+                  <label for = "clans">Clans</label><br>
+                  <textarea id = "clans"></textarea>
+               </li>
+               <li>
+                  <label for = "games">Games</label><br>
+                  <select id = "games" name = "games">
+                     <option>Total Nuclear Annhilation</option>
+                     <option>A Game of Chess</option>
+                     <option>Risk</option>
+                     <option>Go</option>
+                  </select>
+               </li>
+                  <label for = "cheese">Desired Cheese</label><br>
+                  <input = "text" id = "cheese" placeholder = "Favorite Cheese">
+
+            </ul>
+            <ul id = "thirdColumnList">
+               <li>
+                  <label for = "movie">Favorite Movie</label><br>
+                  <input = "text" id = "movie" placeholder = "Favorite Movie">
+               </li>
+               <li>
+                  <label for = "pet">Cats or Dogs?</label><br>
+                  <select id = "pet" name = "pet">
+                     <option>Catty Cats</option>
+                     <option>Doggie Dogs</option>
+                  </select>
+               </li>
+               <li>
+                  <input class = "submit" type = "submit" value = "Click Me">
+               </li>
+            </ul>
+         </ul>
+      </form>
+   </container>
+<script src = "Assets/JS/script.js"></script>
+</body>
+</html>
