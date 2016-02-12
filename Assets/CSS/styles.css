@@ -1,7 +1,7 @@
 /*    body styling, getting margins all set up   */
 
 html {
-   background-color: #eee;
+   background-color: #47a3da;
    font-family: "Verdana", sans-serif;
    line-height: 1.4;
    font-size: 2em;
@@ -13,7 +13,6 @@ html {
 
 #wholeForm {
    padding: 0.5em;
-
 }
 
 /*   list styling    */
@@ -34,45 +33,48 @@ span {
 label {
    font-size: 0.6em;
    padding-left: 0.2em;
+   color: #eee;
 }
 
 input {
    padding: 0.5em;
    font-size: 0.6em;
-   border: 0.2em solid white;
+   border: 0.2em solid #eee;
    background-color: inherit;
+   color: #eee;
+}
+
+::-webkit-input-placeholder {
+   color: #10689a;
 }
 
 select {
    font-size: 0.6em;
    background-color: inherit;
+   color: #eee;
 }
 
 select {
-   border: 0.2em solid white;
+   border: 0.1em solid white;
 }
 
-#clans {
-   height: 7em;
-   padding: none;
-}
 
 textarea {
    background-color: inherit;
    border: 0.2em solid white;
-   width: 100%;
+   width: 80%;
    font-size: 0.7em;
+   height: 7em;
+   color: #eee;
 }
 
 .submit {
-   background-color: white;
+   background-color: #10689a;
    text-decoration: underline;
+   border: none;
+   padding: 1em;
 }
 
 .submit-span {
    text-align: center;
-}
-
-#petChoice {
-   height: 7em;
 }
