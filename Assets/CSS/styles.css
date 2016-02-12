@@ -11,14 +11,21 @@ html {
    margin: 2em 3em 2em 3em;
 }
 
-/*   list styling    */
+#wholeForm {
+   padding: 0.5em;
 
-ul {
-   list-style: none;
-   display: inline-block;
 }
 
-li {
+/*   list styling    */
+
+.column {
+   display: inline-block;
+   width: 28%;
+   padding: 0.5em;
+
+}
+
+span {
    margin-bottom: 0.5em;
    display: block;
    padding-bottom: 0.1em;
@@ -46,7 +53,7 @@ select {
 }
 
 #clans {
-   height: 8em;
+   height: 7em;
    padding: none;
 }
 
@@ -54,9 +61,18 @@ textarea {
    background-color: inherit;
    border: 0.2em solid white;
    width: 100%;
+   font-size: 0.7em;
 }
 
 .submit {
    background-color: white;
    text-decoration: underline;
+}
+
+.submit-span {
+   text-align: center;
+}
+
+#petChoice {
+   height: 7em;
 }

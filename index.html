@@ -8,66 +8,68 @@
 <body>
    <container id = "body">
       <form id = "wholeForm">
-         <ul id = "topLevelList">
-            <ul id = "firstColumnList">
-               <li class = "nameInformation">
-                  <label for = "firstName">First Name</label><br>
-                  <input = "text" id = "firstName" placeholder = "First Name">
-               </li>
-               <li class = "nameInformation">
-                  <label for = "middleName">Middle Name</label><br>
-                  <input = "text" id = "middleName" placeholder="Middle Name">
-               </li>
-               <li class = "nameInformation">
-                  <label for = "lastName">Last Name</label><br>
-                  <input = "text" id = "lastName" placeholder="Last Name">
-               </li>
-               <li>
-                  <label for = "Region">Region</label><br>
-                  <select id = "Region" name = "Region">
-                     <option>Pandaria</option>
-                     <option>Winterfell</option>
-                     <option>Tatooine</option>
-                     <option>Stormwind</option>
-                     <option>Naxxramas</option>
-                  </select>
-               </li>
-            </ul>
-            <ul id = "secondColumnList">
-               <li>
-                  <label for = "clans">Clans</label><br>
-                  <textarea id = "clans"></textarea>
-               </li>
-               <li>
-                  <label for = "games">Games</label><br>
-                  <select id = "games" name = "games">
-                     <option>Total Nuclear Annhilation</option>
-                     <option>A Game of Chess</option>
-                     <option>Risk</option>
-                     <option>Go</option>
-                  </select>
-               </li>
-                  <label for = "cheese">Desired Cheese</label><br>
-                  <input = "text" id = "cheese" placeholder = "Favorite Cheese">
+         <div id = "columnOne" class = "column">
+            <span class = "nameInformation">
+               <label for = "firstName">First Name</label><br>
+               <input = "text" id = "firstName" placeholder = "First Name">
+            </span>
+            <span class = "nameInformation">
+               <label for = "middleName">Middle Name</label><br>
+               <input = "text" id = "middleName" placeholder="Middle Name">
+            </span>
+            <span class = "nameInformation">
+               <label for = "lastName">Last Name</label><br>
+               <input = "text" id = "lastName" placeholder="Last Name">
+            </span>
+            <span>
+               <label for = "Region">Region</label><br>
+               <select id = "Region" name = "Region">
+                  <option>Pandaria</option>
+                  <option>Winterfell</option>
+                  <option>Tatooine</option>
+                  <option>Stormwind</option>
+                  <option>Naxxramas</option>
+               </select>
+            </span>
+         </div>
+         <div id = "columnTwo" class = "column">
+            <span>
+               <label for = "clans">Clans</label><br>
+               <textarea id = "clans"></textarea>
+            </span>
+            <span>
+               <label for = "games">Games</label><br>
+               <select id = "games" name = "games">                     <option>Nuclear Annhilation</option>
+                  <option>A Game of Chess</option>
+                  <option>Risk</option>
+                  <option>Go</option>
+               </select>
+            </span>
+               <label for = "cheese">Desired Cheese</label><br>
+               <input = "text" id = "cheese" placeholder = "Favorite Cheese">
 
-            </ul>
-            <ul id = "thirdColumnList">
-               <li>
-                  <label for = "movie">Favorite Movie</label><br>
-                  <input = "text" id = "movie" placeholder = "Favorite Movie">
-               </li>
-               <li>
-                  <label for = "pet">Cats or Dogs?</label><br>
-                  <select id = "pet" name = "pet">
-                     <option>Catty Cats</option>
-                     <option>Doggie Dogs</option>
-                  </select>
-               </li>
-               <li>
-                  <input class = "submit" type = "submit" value = "Click Me">
-               </li>
-            </ul>
-         </ul>
+         </div>
+         <div id = "columnThree" class = "column">
+            <span>
+               <label for = "movie">Favorite Movie</label><br>
+               <input = "text" id = "movie" placeholder = "Favorite Movie">
+            </span>
+            <span>
+               <label for = "pet">Cats or Dogs?</label><br>
+               <select id = "pet" name = "pet">
+                  <option>Catty Cats</option>
+                  <option>Doggie Dogs</option>
+               </select>
+
+            </span>
+            <span>
+               <label for = "petChoice">Why that Pet Choice?</label><br>
+               <textarea id = petChoice placeholder="In 250 words or less, explain why you chose a catty cat or a doggie dog."></textarea>
+            </span>
+         </div>
+         <span class = "submit-span">
+            <input class = "submit" type = "submit" value = "Click Me">
+         </span>
       </form>
    </container>
 <script src = "Assets/JS/script.js"></script>
