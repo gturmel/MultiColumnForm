@@ -11,7 +11,7 @@ var button = document.getElementById("button");
 button.addEventListener("mouseenter", function(){
    if (button.style.background = "#10689a"){
    button.style.background = "#1478b1"}
-}, false);
+});
 button.addEventListener("mouseleave", function(){
    if (button.style.background = "#1478b1"){
    button.style.background = "#10689a"}
@@ -31,44 +31,44 @@ button.addEventListener("mouseleave", function(){
 var form = document.querySelector("form");
 
 form.addEventListener("submit", function(){
-      console.log(form.firstName);
+      console.log("First Name: " + form.firstName.value);
       event.preventDefault();
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.middleName.value);
+      console.log("Middle Name: " + form.middleName.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.lastName.value);
+      console.log("Last Name: " + form.lastName.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.Region.value);
+      console.log("Region: " + form.Region.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.clans.value);
+      console.log("Clans: " + form.clans.value);
       event.preventDefault();
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.games.value);
+      console.log("Games: " + form.games.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.cheese.value);
+      console.log("Cheese: " + form.cheese.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.movie.value);
+      console.log("Movie: " + form.movie.value);
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.pet.value);
+      console.log("Pet: " + form.pet.value);
       event.preventDefault();
 });
 
 form.addEventListener("submit", function(){
-      console.log(form.petChoice.value);
+      console.log("Pet Choice: " + form.petChoice.value);
 });
